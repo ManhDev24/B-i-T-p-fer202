@@ -7,6 +7,7 @@ let mapping = data.map((item) => {
           <tr>
             <th scope="row">${item.id}</th>
             <td>${item.name}</td>
+            <td>${item.age}</td>
             <td>${item.email}</td>
             <td>${item.universityId}</td>
             <td>${item.major}</td>
