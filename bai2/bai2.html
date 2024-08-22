@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Bài tập</title>
+    <title>Title</title>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -13,7 +13,6 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-
     <!-- Tailwind CSS -->
     <link
       rel="stylesheet"
@@ -25,15 +24,29 @@
   </head>
 
   <body>
-    <h1 class="text-center text-capitalize text-4xl">Phạm Tiến Mạnh Đẹp trai</h1>
-    <div class="mx-auto w-1/2 mt-4">
-      <ul>
-        <li><a class="text-decoration-none text-2xl text-red-500" href="./bai1/bai1.html">Bài tập 1</a></li>
-        <li><a class="text-decoration-none text-2xl text-red-500" href="./bai2/bai2.html">Bài tập 2</a></li>
-        <li></li>
-      </ul>
+    <div class="container" id="root">
+      <h1 class="text-center text-danger text-5xl mb-3">Bài 2</h1>
+      <h2 class="text-center text-3xl mb-4">Qua xem console.log nhá anh</h2>
     </div>
-
+    <div class="container">
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Name</th>
+            <th scope="col">Age</th>
+            <th scope="col">Email</th>
+            <th scope="col">University</th>
+            <th scope="col">Major</th>
+            <th scope="col">GPA</th>
+            <th scope="col">Full Time</th>
+            <th scope="col">Option</th>
+          </tr>
+        </thead>
+        <tbody id="student-table-body"></tbody>
+      </table>
+    </div>
+    <script type="module" src="./bai2.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
       integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
